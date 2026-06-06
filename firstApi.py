@@ -10,7 +10,7 @@ message = client.messages.create(
     model="claude-sonnet-4-5",
     max_tokens=1024,
     messages=[
-        {"role": "user", "content": "Say hello in one sentence."}
+        {"role": "user", "content": "What is today's date"}
     ]
 )
 
